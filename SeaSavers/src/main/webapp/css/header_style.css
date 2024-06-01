@@ -1,0 +1,59 @@
+.logo-img {
+    height: 170px; /* Ajusta la altura del logotipo según sea necesario */
+    margin-left: 40px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #3C3030;
+}
+
+.header-container {
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.auth-buttons .btn {
+    margin-left: 10px;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    margin-top: -70px; /* Ajusta el margen superior según sea necesario */
+    margin-right: 30px;
+    margin-left: -10px;
+}
+
+.wave-header {
+    background: url('../img/waves-background.jpg') center/cover, linear-gradient(to bottom, #0077A2, #FFFFFF);
+}
+
+.btn.btn-primary {
+    background-color: #0077A2; /* Cambia el color de fondo del botón de inicio de sesión */
+    border-color: #0077A2; /* Cambia el color del borde del botón de inicio de sesión */
+}
+
+.btn.btn-secondary {
+    background-color: #333; /* Cambia el color de fondo del botón de registro a un tono más oscuro */
+    border-color: #333; /* Cambia el color del borde del botón de registro a un tono más oscuro */
+    color: #fff; /* Cambia el color del texto a blanco para que resalte sobre el fondo oscuro */
+    
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+
+

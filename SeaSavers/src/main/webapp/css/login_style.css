@@ -1,0 +1,22 @@
+#login {
+    margin-top: 50px; /* Agrega margen superior */
+}
+
+#login form {
+    max-width: 400px; /* Limita el ancho del formulario */
+    margin: 20 auto; /* Centra el formulario horizontalmente */
+}
+
+#login .btn-block {
+    margin-top: 20px; /* Agrega espacio entre los botones y los campos de entrada */
+}
+
+
+
+
+
+
+
+
+
+

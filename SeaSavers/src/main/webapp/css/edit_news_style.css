@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+}
+
+/* Estilos para el contenedor de cada noticia */
+.card {
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-bottom: 20px; /* Espacio entre noticias */
+    width: 80%; /* Ancho del contenedor */
+    max-width: 600px; /* Ancho máximo */
+}
+
+/* Estilos para el título de la noticia */
+.card-title {
+    text-align: center; /* Centra el título */
+}
+
+/* Estilos para el texto de la noticia */
+.card-text {
+    text-align: justify; /* Justifica el texto */
+}
+
+/* Estilos para el botón "Ver más" */
+.btn-primary {
+    display: block; /* Convierte en bloque para ocupar todo el ancho */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.card-news {
+    max-width: 800px; /* Define el ancho máximo del recuadro de la noticia */
+    margin: 0 auto; /* Centra el recuadro en la página */
+    padding: 20px; /* Añade espacio alrededor del contenido de la noticia */
+}
+
+.btn-insert-news {
+    max-width: 200px; /* ajusta el ancho máximo según sea necesario */
+}
+
+
+

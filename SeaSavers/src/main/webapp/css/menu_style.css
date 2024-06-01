@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 11px 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card-body i {
+    color: #007bff;
+    margin-bottom: 10px; /* Espacio extra debajo del icono */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Centrar los botones dentro de las tarjetas */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Añadir margen superior a las tarjetas para bajarlas */
+.row.mt-5 {
+    margin-top: 3rem;
+}

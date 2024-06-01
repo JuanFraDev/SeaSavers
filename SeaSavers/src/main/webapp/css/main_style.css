@@ -1,0 +1,61 @@
+#about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#about img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+#sustainability img:hover,
+#participate img:hover,
+#recycling img:hover,
+#about img:hover {
+    transform: scale(1.05); 
+}
+
+#participate img,
+#recycling img {
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+#sustainability img {
+    max-width: 80%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+#participate,
+#sustainability {
+    margin-top: 50px; /* Agrega margen superior */
+}
+
+
